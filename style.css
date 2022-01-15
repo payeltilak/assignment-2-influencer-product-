@@ -26,7 +26,7 @@ h3{
     
     width: 160px;
     height: 40px;
-    background-color: rgb(155, 73, 73);
+    background-color: dodgerblue;
     border-radius: 20px;
     color: white;
     transition: ease-out 0.3s;
@@ -92,7 +92,7 @@ span{
     width: 160px;
     height: 40px;
     border-radius: 10px;
-    background-color: mediumslateblue;
+    background-color:palevioletred;
     color: white;
 }
 
@@ -107,7 +107,7 @@ span{
 /* footer-part */
 footer{
     text-align: center;
-    background-color:#0A0826;    color: white;
+    background-color:#1a1646;    color: white;
 }
 h2{
 align-items: center;
