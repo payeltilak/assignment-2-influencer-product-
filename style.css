@@ -34,12 +34,33 @@ h3{
      height: 414px;
      margin-left: 80px;
 }
-/* popular */
-
-.second-part{
-    Width:100px;
-    Height: 100px; 
+/* collection style */
+   
+.selection-title{
+    margin-left: 450px;
+    padding: 100px;
 }
-h2{
-    margin-left: 500px;
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.collection{
+    margin-left:110px;
+}
+.collection-title{
+    margin-left: 80px;
+    
+}
+.fa-star{
+    color: rgb(223, 157, 36);
+}
+span{
+    color: #5E6366;
+    font-weight: bold;
+
+}
+.collection-text{
+    color: #787885;
+    font-size: 14px;
+    font-weight: bold;
 }
