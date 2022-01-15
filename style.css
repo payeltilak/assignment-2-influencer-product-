@@ -25,7 +25,7 @@ h3{
     
     width: 160px;
     height: 40px;
-    background-color: blueviolet;
+    background-color:rgb(74, 74, 146);
     border-radius: 20px;
     color: white;
 }
@@ -43,9 +43,16 @@ h3{
 .collections{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    row-gap: 15px;
 }
 .collection{
     margin-left:110px;
+   margin: 0 auto;
+   width: 340 px;
+   height: 473 px;
+   background: #FFFFFF;
+   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+   border-radius: 5px;
 }
 .collection-title{
     margin-left: 80px;
@@ -63,4 +70,26 @@ span{
     color: #787885;
     font-size: 14px;
     font-weight: bold;
+}
+.see{
+    color: #E02C6DDE;
+     margin-left: 1172px;
+     width: 90px;
+     height: 30.81px;
+     margin-top: 20px;
+     border-radius: 5px;
+}
+/* social media influencer */
+footer{
+    text-align: center;
+    background-color:#0A0826;
+    color: white;
+}
+
+.social-influ{
+    display: flex;
+}
+/* footer-part */
+h2{
+align-items: center;
 }
